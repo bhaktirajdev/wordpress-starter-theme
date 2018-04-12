@@ -1,0 +1,68 @@
+/*
+ Theme Name    : 	Wordpress Starter Theme
+ Theme URI     : 	https://github.com/bhaktirajdev/wordpress-starter-theme.git
+ Description   : 	A basic starter theme for easy theme development
+ Author        :	Bhakti Rajdev
+ Author URI    :	https://bhavatisystems.com/
+ Version       :	1.0
+ License       :  GNU General Public License v3 or later
+ License URI   :	http://www.gnu.org/licenses/gpl-2.0.html
+ Tags          :	responsive-layout, accessibility-ready, bootstrap, starter, basic, minimal
+*/
+
+html{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  margin: 0;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Helvetica', arial;
+  font-weight: 900;
+}
+
+h1{
+  48px;
+}
+
+h2{
+  40px;
+}
+
+h3{
+  28px;
+}
+
+h4{
+  24px;
+}
+
+.clear, clear::after{
+  content: ' ';
+  clear:both;
+  display: block;
+}
+
+.sr-text,.screen-reader-text{
+  display: none;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+/* styling nav Bar*/
+ul.navbar-nav mr-auto{
+
+}
+
+ul.navbar-nav mr-auto li{
+
+}
